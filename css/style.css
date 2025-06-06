@@ -1,13 +1,55 @@
-html {
-  /* página rolando suavemente */
-  scroll-behavior: smooth;
+.hero {
+  background: url("../img/agroboy.png") center/cover no-repeat;
+  color: white;
+  height: 800px;
+  position: relative;
 }
 
-.bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
-  height: 700px;
+.hero-text {
+  position: relative;
+  bottom: 300px;
+  left: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
 }
 
-header {
-  background-color: #fbf1e5;
+.sustentavel {
+  background: url("../img/fundoImagem.png") center/cover no-repeat;
+  height: 1000px;
+  position: relative;
+}
+
+.sustentavel-text {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  background-color: rgba(0, 100, 0, 0.6);
+  color: white;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.map-section {
+  height: 500px;
+  background: url("../img/mapa.png") center/cover no-repeat;
+}
+nav {
+  color: #0b5534 !important;
+}
+.footer-icons img {
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 600px;
+  }
+  .sustentavel {
+    height: 600px;
+  }
+  .map-section {
+    height: 300px;
+  }
 }
