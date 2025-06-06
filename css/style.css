@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
 .hero {
   background: url("../img/agroboy.png") center/cover no-repeat;
   color: white;
@@ -52,4 +58,10 @@ nav {
   .map-section {
     height: 300px;
   }
+}
+
+#contato {
+  border-radius: 10px;
+  margin: auto;
+  width: 100%;
 }
