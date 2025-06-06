@@ -65,3 +65,9 @@ nav {
   margin: auto;
   width: 100%;
 }
+
+.imagemPatrocinador {
+  height: 70px;
+  margin-bottom: 70px;
+  margin-top: 45px;
+}
