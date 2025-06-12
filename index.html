@@ -311,6 +311,14 @@
           }
         });
       });
+      // Efeito de scroll suave para o botão "Explorar produtos"
+      document.getElementById("btnCardapio").addEventListener("click", function (e) {
+        e.preventDefault();
+        const destino = document.getElementById("PromoPizzas");
+        if (destino) {
+          destino.scrollIntoView({ behavior: "smooth" });
+        }
+      });
       
      // Validação simples do formulário com mensagem de confirmação
     document.querySelector("form").addEventListener("submit", function (e) {
